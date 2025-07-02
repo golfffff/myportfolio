@@ -39,6 +39,7 @@ import ntlimage from "./assets/port5_ntl.jpg";
 import princimage from "./assets/port6_p.jpg";
 import hisImage from "./assets/port7_his1.jpg";
 import webImage from "./assets/port8_first.png";
+import ps from "./assets/ps.jpg"; // Placeholder image for profile
 // --- CSS Styles ---
 const styles = `
     @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&display=swap');
@@ -367,8 +368,7 @@ const translations = {
       email: "panja.sasithonwan@gmail.com",
       phone: "097-171-0031",
       linkedin: "https://www.linkedin.com/in/panja-sasithonwan-265a1219a/",
-      profilePicture:
-        "https://placehold.co/180x180/2d2d2d/ffffff?text=PS&font=sans-serif",
+      profilePicture: ps,
     },
     menuItems: [
       { key: "about", icon: <UserOutlined />, label: "About Me" },
@@ -442,7 +442,7 @@ const translations = {
         title: "Business Analyst & Quality Assurance",
         company: "Queen Sirikit National Institute of Child Health",
         details:
-          "Implemented Hospital Information System (HIS). Prepared SRS and Wireframe documentation.",
+          "Implemented Hospital Information System (HIS). Prepared BRD and Wireframe documentation.",
       },
       {
         date: "May 2011 - Mar 2014",
@@ -505,7 +505,7 @@ const translations = {
         title: "Hospital Information System (HIS) Implementation",
         company: "Queen Sirikit National Institute of Child Health",
         description:
-          "Implemented a Hospital Information System (HIS) and prepared key software development documentation like SRS and Wireframes.",
+          "Implemented a Hospital Information System (HIS) and prepared key software development documentation like BRD and Wireframes.",
         tags: ["Business Analyst", "QA", "HIS", "Healthcare"],
         imageUrl: hisImage,
       },
@@ -557,8 +557,7 @@ const translations = {
       email: "panja.sasithonwan@gmail.com",
       phone: "097-171-0031",
       linkedin: "https://www.linkedin.com/in/panja-sasithonwan-265a1219a/",
-      profilePicture:
-        "https://placehold.co/180x180/2d2d2d/ffffff?text=PS&font=sans-serif",
+      profilePicture: ps, // Placeholder image for profile
     },
     menuItems: [
       { key: "about", icon: <UserOutlined />, label: "เกี่ยวกับฉัน" },
@@ -632,7 +631,7 @@ const translations = {
         title: "Business Analyst & Quality Assurance",
         company: "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
         details:
-          "ติดตั้งและดูแลระบบสารสนเทศโรงพยาบาล (HIS) และจัดทำเอกสาร SRS และ Wireframe",
+          "ติดตั้งและดูแลระบบสารสนเทศโรงพยาบาล (HIS) และจัดทำเอกสาร BRD และ Wireframe",
       },
       {
         date: "พ.ค. 2554 - มี.ค. 2557",
@@ -695,7 +694,7 @@ const translations = {
         title: "การติดตั้งระบบสารสนเทศโรงพยาบาล (HIS)",
         company: "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
         description:
-          "ติดตั้งระบบสารสนเทศของโรงพยาบาล (HIS) และจัดทำเอกสารสำคัญสำหรับการพัฒนาซอฟต์แวร์ เช่น SRS และ Wireframes",
+          "ติดตั้งระบบสารสนเทศของโรงพยาบาล (HIS) และจัดทำเอกสารสำคัญสำหรับการพัฒนาซอฟต์แวร์ เช่น BRD และ Wireframes",
         tags: ["Business Analyst", "QA", "HIS", "Healthcare"],
         imageUrl: hisImage,
       },
@@ -801,7 +800,7 @@ const HeroSection = ({ t, lang }) => {
           <Button icon={<LinkedinOutlined />} href={t.linkedin} target="_blank">
             {translations[lang].contactButtons.linkedin}
           </Button>
-          <Button icon={<PhoneOutlined />}>{t.phone}</Button>
+          {/* <Button icon={<PhoneOutlined />}>{t.phone}</Button> */}
         </div>
       </Col>
     </Row>
@@ -940,9 +939,9 @@ const ContactSection = ({ t, lang }) => {
       </Title>
       <Paragraph>{t.contactSection.intro}</Paragraph>
       <div className="contact-info">
-        <Paragraph>
+        {/* <Paragraph>
           <PhoneOutlined /> {t.personalInfo.phone}
-        </Paragraph>
+        </Paragraph> */}
         <Paragraph>
           <CopyOutlined />{" "}
           <a
