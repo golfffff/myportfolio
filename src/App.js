@@ -31,7 +31,14 @@ import {
   LinkedinOutlined,
   CopyOutlined, // Import CopyOutlined
 } from "@ant-design/icons";
-import hisSystemImage from "./assets/port1.jpg"; //
+import hisSystemImage from "./assets/port1.jpg";
+import crmImage from "./assets/port2_CRM.jpg";
+import hupimage from "./assets/port3_hup.jpg";
+import o2oImage from "./assets/port4_o2o.jpg";
+import ntlimage from "./assets/port5_ntl.jpg";
+import princimage from "./assets/port6_p.jpg";
+import hisImage from "./assets/port7_his1.jpg";
+import webImage from "./assets/port8_first.png";
 // --- CSS Styles ---
 const styles = `
     @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&display=swap');
@@ -460,8 +467,7 @@ const translations = {
         description:
           "Led QA efforts for a suite of business applications, including designing test cases, performing functional/API testing, and managing UAT.",
         tags: ["QA Lead", "CRM", "API Testing", "Mobile"],
-        imageUrl:
-          "https://placehold.co/400x225/36D1DC/ffffff?text=CRM+Dashboard",
+        imageUrl: crmImage,
       },
       {
         title: "Hospital & Wellness Mobile Apps",
@@ -469,8 +475,7 @@ const translations = {
         description:
           "Managed the end-to-end development process for a Hospital Mobile App, Home Monitoring, and a Wellness app.",
         tags: ["Product Management", "Mobile App", "Healthcare"],
-        imageUrl:
-          "https://placehold.co/400x225/1D976C/ffffff?text=Mobile+Health",
+        imageUrl: hupimage,
       },
       {
         title: "O2O Mobile App",
@@ -478,8 +483,7 @@ const translations = {
         description:
           "Served as Senior Product Owner, prioritizing the backlog and managing cross-functional teams to deliver an Online-to-Offline mobile application.",
         tags: ["Product Owner", "E-commerce", "Agile"],
-        imageUrl:
-          "https://placehold.co/400x225/FF8008/ffffff?text=O2O+Commerce",
+        imageUrl: o2oImage,
       },
       {
         title: "NTL Mobile App & Middleware",
@@ -487,7 +491,7 @@ const translations = {
         description:
           "Drove the delivery of a mobile application and middleware services. Acted as Scrum Master and designed API specifications.",
         tags: ["Product Owner", "Fintech", "Scrum Master", "API Design"],
-        imageUrl: "https://placehold.co/400x225/93291E/ffffff?text=Fintech+App",
+        imageUrl: ntlimage,
       },
       {
         title: "PRINC Mobile & Telemedicine App",
@@ -495,8 +499,7 @@ const translations = {
         description:
           "Developed product roadmap, worked with UX/UI designers, and facilitated scrum activities for telemedicine and hospital apps.",
         tags: ["Product Owner", "Telemedicine", "UX/UI"],
-        imageUrl:
-          "https://placehold.co/400x225/009FFF/ffffff?text=Telemedicine",
+        imageUrl: princimage,
       },
       {
         title: "Hospital Information System (HIS) Implementation",
@@ -504,8 +507,7 @@ const translations = {
         description:
           "Implemented a Hospital Information System (HIS) and prepared key software development documentation like SRS and Wireframes.",
         tags: ["Business Analyst", "QA", "HIS", "Healthcare"],
-        imageUrl:
-          "https://placehold.co/400x225/5f2c82/ffffff?text=HIS+Implementation",
+        imageUrl: hisImage,
       },
       {
         title: "Web Development & Server Management",
@@ -513,8 +515,7 @@ const translations = {
         description:
           "Developed web applications (CRUD & Reports) and managed web server installation, customization, and maintenance on Windows & Ubuntu.",
         tags: ["Web Developer", "System Analyst", "Web Server"],
-        imageUrl:
-          "https://placehold.co/400x225/485563/ffffff?text=Web+Development",
+        imageUrl: webImage,
       },
     ],
     skills: {
@@ -656,8 +657,7 @@ const translations = {
         description:
           "นำทีม QA สำหรับชุดแอปพลิเคชันธุรกิจ, รวมถึงการออกแบบ test cases, การทดสอบ functional/API และการจัดการ UAT",
         tags: ["QA Lead", "CRM", "API Testing", "Mobile"],
-        imageUrl:
-          "https://placehold.co/400x225/36D1DC/ffffff?text=CRM+Dashboard",
+        imageUrl: crmImage,
       },
       {
         title: "แอปพลิเคชันโรงพยาบาลและสุขภาพ",
@@ -665,8 +665,7 @@ const translations = {
         description:
           "จัดการกระบวนการพัฒนาตั้งแต่ต้นจนจบสำหรับแอปโรงพยาบาล, ระบบติดตามผู้ป่วยที่บ้าน และแอปสุขภาพ",
         tags: ["Product Management", "Mobile App", "Healthcare"],
-        imageUrl:
-          "https://placehold.co/400x225/1D976C/ffffff?text=Mobile+Health",
+        imageUrl: hupimage,
       },
       {
         title: "แอปพลิเคชัน O2O",
@@ -674,8 +673,7 @@ const translations = {
         description:
           "ทำหน้าที่ Senior Product Owner, จัดลำดับความสำคัญของ backlog และจัดการทีม cross-functional เพื่อส่งมอบแอปพลิเคชัน Online-to-Offline",
         tags: ["Product Owner", "E-commerce", "Agile"],
-        imageUrl:
-          "https://placehold.co/400x225/FF8008/ffffff?text=O2O+Commerce",
+        imageUrl: o2oImage,
       },
       {
         title: "แอป NTL และ Middleware",
@@ -683,7 +681,7 @@ const translations = {
         description:
           "ขับเคลื่อนการส่งมอบแอปพลิเคชันมือถือและบริการ middleware, ทำหน้าที่ Scrum Master และออกแบบ API specifications",
         tags: ["Product Owner", "Fintech", "Scrum Master", "API Design"],
-        imageUrl: "https://placehold.co/400x225/93291E/ffffff?text=Fintech+App",
+        imageUrl: ntlimage,
       },
       {
         title: "แอป PRINC และ Telemedicine",
@@ -691,8 +689,7 @@ const translations = {
         description:
           "พัฒนา product roadmap, ทำงานร่วมกับนักออกแบบ UX/UI และอำนวยความสะดวกในกิจกรรม scrum สำหรับแอป telemedicine และโรงพยาบาล",
         tags: ["Product Owner", "Telemedicine", "UX/UI"],
-        imageUrl:
-          "https://placehold.co/400x225/009FFF/ffffff?text=Telemedicine",
+        imageUrl: princimage,
       },
       {
         title: "การติดตั้งระบบสารสนเทศโรงพยาบาล (HIS)",
@@ -700,8 +697,7 @@ const translations = {
         description:
           "ติดตั้งระบบสารสนเทศของโรงพยาบาล (HIS) และจัดทำเอกสารสำคัญสำหรับการพัฒนาซอฟต์แวร์ เช่น SRS และ Wireframes",
         tags: ["Business Analyst", "QA", "HIS", "Healthcare"],
-        imageUrl:
-          "https://placehold.co/400x225/5f2c82/ffffff?text=HIS+Implementation",
+        imageUrl: hisImage,
       },
       {
         title: "การพัฒนาเว็บและจัดการเซิร์ฟเวอร์",
@@ -709,8 +705,7 @@ const translations = {
         description:
           "พัฒนาเว็บแอปพลิเคชัน (CRUD & Reports) และจัดการการติดตั้ง, ปรับแต่ง, และบำรุงรักษาเว็บเซิร์ฟเวอร์บน Windows & Ubuntu",
         tags: ["Web Developer", "System Analyst", "Web Server"],
-        imageUrl:
-          "https://placehold.co/400x225/485563/ffffff?text=Web+Development",
+        imageUrl: webImage,
       },
     ],
     skills: {
